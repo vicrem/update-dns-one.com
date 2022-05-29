@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
 
         except ValueError:
-            print('Address is invalid: %s' % sys.argv[1])      
+            exit('Address is invalid: %s' % sys.argv[1])      
 
 
     else:
